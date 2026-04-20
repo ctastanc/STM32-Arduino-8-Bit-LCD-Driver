@@ -9,6 +9,8 @@ The LCD-Touch STM32F103 and LCD-Touch STM32F401 folders can be run directly in V
 
 In the mcu_regs.h file, specify the frequency of the MCU you are working with using CPU_F. This is because the latencies set for MCUs faster than 84MHz depend on this frequency.
 
+Define the PINs in the mcu_regs.h file and the LCDs in the lcd_regs.h file.
+
 Arduino Mega
 <img width="1262" height="1041" alt="Arduino Mega" src="https://github.com/user-attachments/assets/10e3bdf5-ef3a-4ff4-8751-64343c3bb448" />
 STM32F401
