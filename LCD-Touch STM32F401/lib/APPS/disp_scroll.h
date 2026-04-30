@@ -74,6 +74,7 @@ class disp_s {
         lcd.Fill_Screen(BLACK);
         while(1){
             uint16_t max_scroll,rotation,i,n;
+            lcd.Set_Rotation(0);
             uint16_t scrollbuf[lcd.Height]; 
             for(rotation = 0;rotation<4;rotation++)
             {
